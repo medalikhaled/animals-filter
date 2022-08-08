@@ -1,0 +1,6 @@
+1) cd server
+2) npm init -y 
+3) npm i express cors chance 
+//express to build the backend (Rest API) and chance is a library like factory in laravel to create dummy data and cors to enable (in order for our frontend app to make a request to the server from a different URL) the cross origin resource sharing with express.
+
+4) go to package.json and add under main: "index.js": type: "module" to allow us using modern module ecmascript syntax
